@@ -1,0 +1,14 @@
+# This is the new Lucky Star.js detection script to detect whether the framework is available.
+# Although Star.js only requires browser access, it does not require software installation like Node.js. It is placed on the client and server to communicate, and is a pure front-end development framework.
+name: Star.js CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
